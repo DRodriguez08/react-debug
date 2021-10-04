@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/Main.css";
 
 const Main = () => {
   return (
@@ -23,10 +24,18 @@ const Main = () => {
         </video>
       </section>
       <section className="extern-links-section">
-        links a sitios externos
+        <a href="/">
+          <img className="imagenLinkExterno" src="http://cine.ar/img/tv.cine.ar.svg" alt="tv"/>
+        </a>
+        <a href="/">
+          <img className="imagenLinkExterno" src="http://cine.ar/img/play.cine.ar.svg" alt="play"/>
+        </a>
+        <a href="/">
+          <img className="imagenLinkExterno" src="http://cine.ar/img/estrenos.cine.ar.svg" alt="estrenos"/>
+        </a>
       </section>
     </main>
-  ;
-};
+  );
+}
 
 export default Main;

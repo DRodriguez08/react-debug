@@ -29,9 +29,6 @@ const enlacesARedesSociales = redesSociales.map(
     </li>
   )
 );
-const enlaceARedesSociales = redesSociales.map(
-  ({ textoAlternativo, srcDelIcono }) => <span>Esto no es </span>
-);
 
 const Header = () => {
   return (
@@ -46,8 +43,8 @@ const Header = () => {
               style={{ width: 160, height: 40 }}
             />
           </a>
-          contenidos <b style={{ marginLeft: "8px" }}>argentinos</b>
-          <ul id="list-redsocial">enlaceARedesSociales</ul>
+          c o n t e n i d o s <b style={{ marginLeft: "8px" }}>a r g e n t i n o s</b>
+          <ul id="list-redsocial">{enlacesARedesSociales}</ul>
         </div>
 
         <ul>

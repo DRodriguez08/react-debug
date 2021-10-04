@@ -1,0 +1,10 @@
+p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: smaller;
+}
+.encabezado {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
